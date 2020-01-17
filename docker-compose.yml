@@ -1,0 +1,15 @@
+version: '3'
+
+volumes:
+  debug_django_pgdata:
+    external: true
+
+services:
+  postgres:
+    image: postgres:10.6-alpine
+    network_mode:
+      host
+    ports:
+      - 5432:5432
+    volumes:
+      - debug_django_pgdata:/var/lib/postgresql/data

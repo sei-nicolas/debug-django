@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: debug-django-book
+Version: 0.1
+Summary: Book management
+Home-page: https://www.batvoice.com
+Author: Batvoice Technologies
+Author-email: contact@batvoice.com
+License: BSD-3-Clause  # Example license
+Description: =====
+        Books
+        =====
+        
+Platform: UNKNOWN
